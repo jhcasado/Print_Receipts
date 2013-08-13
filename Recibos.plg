@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Recibos - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc0a /fo"Release/Recibos.res" /d "NDEBUG" /d "_AFXDLL" "F:\MFCpru\Recibos\Recibos.rc"" 
+Creating temporary file "c:\temp\RSP93B5.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Recibos.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\MFCpru\Recibos\MainFrm.cpp"
+"F:\MFCpru\Recibos\Recibos.cpp"
+"F:\MFCpru\Recibos\RecibosDoc.cpp"
+"F:\MFCpru\Recibos\RecibosSet.cpp"
+"F:\MFCpru\Recibos\RecibosView.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP93B5.TMP" 
+Creating temporary file "c:\temp\RSP93B6.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Recibos.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\MFCpru\Recibos\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP93B6.TMP" 
+Creating temporary file "c:\temp\RSP93B7.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Recibos.pdb" /machine:I386 /out:"Release/Recibos.exe" 
+.\Release\MainFrm.obj
+.\Release\Recibos.obj
+.\Release\RecibosDoc.obj
+.\Release\RecibosSet.obj
+.\Release\RecibosView.obj
+.\Release\StdAfx.obj
+.\Release\Recibos.res
+]
+Creating command line "link.exe @c:\temp\RSP93B7.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+Recibos.cpp
+RecibosDoc.cpp
+RecibosSet.cpp
+RecibosView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Recibos.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
